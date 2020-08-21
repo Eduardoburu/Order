@@ -1,0 +1,122 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.oneup {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background-image: url("{% static 'img/image1.jpg' %}");
+    padding-bottom: 2.5%;
+}
+@media screen and (max-width: 600px) {
+    .oneup {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+.twoup {
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 90%;
+    border-radius: 5px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+.threeup {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.fourup {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: black;
+    font-weight: 600;
+    margin-top: 3.5%;
+}
+@media screen and (max-width: 600px) {
+    .fourup {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+.fiveup {
+    background-color: white;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 5px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+@media screen and (max-width: 600px) {
+    .fiveup {
+        margin-top: 3%;
+    }
+}
+.sixup {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+@media screen and (max-width: 600px) {
+    .sixup {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+.sevenup {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.eightup {
+    background-color: black;
+    color: white;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    padding-left: 6%;
+    border-radius: 5px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.nineup {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding-left: 2.5%;
+    padding-right: 3%;
+}
+@media screen and (max-width: 600px) {
+    .nineup {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+.mavitu {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.entry {
+    background-color: #FFE4E1;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    border-radius: 5px;
+}
+
+.entry a {
+    color: black;
+}
+
+.entry a:visited {
+    color: brown;
+  }
+
+.margt2 {
+    margin-top: 2%;
+}

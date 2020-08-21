@@ -1,0 +1,61 @@
+{% extends "home/base.html" %}
+{% block title %}Blog{% endblock %}
+{% block content %}
+
+
+    <div class="sevenup">
+        <h5 style="text-align: center; margin-top: 2%; margin-bottom: 2%;">Latest Blog Posts</h5>
+        <div class="entry">
+            <h6><a href="{% url 'Article_1' %}">Similarities and Differences between the Arizona and US Constitution</a></h6>
+        </div>
+        <div class="entry">
+            <h6><a href="{% url 'Article_2' %}">Transfer Pricing</a></h6>
+        </div>
+        <div class="entry">
+            <h6><a href="{% url 'Article_3' %}">The 2007-2008 Financial Crisis</a></h6>
+        </div>
+        <div class="entry">
+            <h6><a href="{% url 'Article_4' %}">Reducing Road Accidents by Banning the Use of Cellphone while Driving</a></h6>
+        </div>
+        <div class="entry">
+            <h6><a href="{% url 'Article_5' %}">Internal and External Analysis of the NFL&rsquo;s New York Giants</a></h6>
+        </div>
+        <div class="entry">
+            <h6><a href="{% url 'Article_6' %}">Directional Process Analysis for Complaining Effectively</a></h6>
+        </div>
+        <div class="entry">
+            <h6><a href="{% url 'Article_7' %}">Warren Buffet On Business</a></h6>
+        </div>
+        <div class="entry">
+            <h6><a href="{% url 'Article_8' %}">Effects of Poverty on a Culture</a></h6>
+        </div>
+        <div class="entry">
+            <h6><a href="{% url 'Article_9' %}">Multilateral projections of an Asia-Pacific Free Trade Agreement</a></h6>
+        </div>
+        <div class="entry">
+            <h6><a href="{% url 'Article_10' %}">Wells Fargo Fake Accounts Scandal</a></h6>
+        </div>
+        <div class="entry">
+            <h6><a href="{% url 'Article_11' %}">The Role and Importance of Organizational Behavior</a></h6>
+        </div>
+        <div class="entry">
+            <h6><a href="{% url 'Article_12' %}">Accounting for Financial Instruments with both Debt and Equity Features</a></h6>
+        </div>
+        <div class="entry">
+            <h6><a href="{% url 'Article_13' %}">Role and Importance of Ethnic Cuisines</a></h6>
+        </div>
+        <div class="margt2">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+              </nav>
+        </div>
+    </div>
+
+
+{% endblock content %}

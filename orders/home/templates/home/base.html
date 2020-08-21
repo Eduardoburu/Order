@@ -1,0 +1,230 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'home/mainlol.css' %}" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>{% block title %}{% endblock %}</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="">The Dissertation Coach</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- Answer button end 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'Blog_1' %}">Blog </a>
+                </li>
+                <!--
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            CPS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Section One</a>
+                            <a class="dropdown-item" href="#">Section Two</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Section Three</a>
+                            <a class="dropdown-item" href="#">Section Four</a>
+                            <a class="dropdown-item" href="#">Section Five</a>
+                            <a class="dropdown-item" href="#">Section Six</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                -->
+            </ul>
+            <!--
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            -->
+        </div>
+    </nav>
+    <div>
+        <div class="oneup" style="background-image: url('{% static 'img/image1.jpg' %}');">
+            <div class="twoup">
+                <h3 class="threeup">High Quality Essay/Disseratation Coaching</h3>
+                <div class="fourup">
+                    <div>
+                        <ul style="list-style: none;">
+                            <li>Review and Selection of Essay/Dissertation Topic</li>
+                            <li>Input from Ph.D Specialists</li>
+                            <li>High Academic Standards</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul style="list-style: none;">
+                            <li>100% plagiarism Free</li>
+                            <li>Flexible Pricing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="fiveup">
+                    <h4 style="color: green; text-align: center;">Contact Us</h4>
+                    <p style="padding-left: 12%;">E-mail: sales@domain.com</p>
+                    <p style="padding-left: 12%;">Skype: 1234id</p>
+                    <p style="padding-left: 12%;">Whattsapp: +254 713 456 216</p>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="sixup">
+            {% block content %}{% endblock %}
+            <div>
+                <div class="eightup">
+                    <h5 style="color: green; text-align: center;">Our Services</h5>
+                    <ul>                    
+                        <li>Research Proposal</li>
+                        <li>Full dissertation</li>
+                        <ul>
+                            <li>Abstract</li>
+                            <li>Introduction</li>
+                            <li>Literature Review</li>
+                            <li>Methodology</li>
+                            <li>Results</li>
+                            <li>Discussion</li>
+                            <li>Conclusion</li>
+                        </ul>
+                        <li>Thesis</li>
+                        <li>Coursework</li>
+                        <li>Essay</li>
+                        <li>Resarch Paper</li>
+                        <li>Term Paper</li>
+                        <li>Paper Editing</li>
+                        <li>Finance Research</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+       
+        <div class="nineup">
+            <div class="tenup">
+                <img src="{% static 'img/image2.jpg' %}" alt="Loading Image" style="margin-bottom: 1.5%; width: 100%; margin-top: 1.5%;">
+                <div class="mavitu">
+                    <p>Essay and dissertation writing can be quite challenging for first-time academics and in reality, it may take several attempts to get everything right. Getting guidance on how to organize your dissertation can, therefore, be very helpful and prevent countless revisions requests from your tutor.</p>
+                    <p>Our experts have years of research experience and can write top-notch dissertations that would meet your expectations. Whether your field is business, medicine, or social work, we have experts on standby waiting to help you get that perfect paper.</p>
+                    <h5><strong>How to get help with your Essay/Dissertation</strong></h5>
+                    <p>In case you believe you may not be able to complete your essay/dissertation on time or the research topic is quite complicated, you need to contact us immediately and get an expert assigned to your paper.</p>
+                    <ol>
+                        <li>Let us know the requirements of the essay/dissertation and the progress you have made. Once we get clear instructions on the paper, we can determine exactly what is needed based on the materials provided.</li>
+                        <li>Your order will be assigned to an expert who will update you constantly on the progress made. Based on your requirements, we will deliver original plagiarism work that matches the requirements.</li>
+                        <li>The complete paper will be delivered in a timeframe of your choosing. Timeliness is of key importance to us and we will ensure you get your paper in time to use it.</li>
+                    </ol>
+                </div>
+            </div>
+            <div>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4 ">
+        
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left kf2">
+            
+            <!-- Grid row -->
+            <div class="row">
+                
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+                    
+                    <!-- Content -->
+                    <h5 class="text-uppercase">The Dissertation Coach</h5>
+                    <p></p>
+                    
+                </div>
+                <!-- Grid column -->
+                
+                <hr class="clearfix w-100 d-md-none pb-3">
+                
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+                    
+                    <!-- Links -->
+                    <h5 class="text-uppercase"></h5>
+                    
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="">Business Law</a>
+                        </li>
+                        <li>
+                            <a href="">Entrepreneurship and Communication</a>
+                        </li>
+                        <li>
+                            <a href="">Financial Accounting</a>
+                        </li>
+                        <li>
+                            <a href="#!">Economics</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <!-- Grid column -->
+                
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+                    
+                    <!-- Links -->
+                    <h5 class="text-uppercase"></h5>
+                    
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Company Law</a>
+                        </li>
+                        <li>
+                            <a href="#!">Financial Reporting</a>
+                        </li>
+                        <li>
+                            <a href="#!">Financial Management</a>
+                        </li>
+                        <li>
+                            <a href="#!">Auditing and Assurance</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <!-- Grid column -->
+                
+            </div>
+            <!-- Grid row -->
+            
+        </div>
+        <!-- Footer Links -->
+        
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> accounting-connection.com</a>
+        </div>
+        <!-- Copyright -->
+        
+    </footer>
+    <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
