@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'orders.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'orders',
+        'NAME': 'ordersDB',
         'USER': 'edu',
         'PASSWORD': 'fghfj6363@dd',
         'HOST': 'localhost',
