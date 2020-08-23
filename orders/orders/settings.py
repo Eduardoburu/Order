@@ -25,7 +25,7 @@ SECRET_KEY = 'xljtaq7df#ywa7gl860n07+23#p&iv42fobc!(fb0d-kp&bp6z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['162.243.162.127']
+ALLOWED_HOSTS = ['64.227.15.80']
 
 
 # Application definition
@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'orders.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ordersDB',
+        'NAME': 'ordersdb',
         'USER': 'edu',
         'PASSWORD': 'fghfj6363@dd',
         'HOST': 'localhost',
