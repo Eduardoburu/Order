@@ -25,7 +25,7 @@ SECRET_KEY = 'xljtaq7df#ywa7gl860n07+23#p&iv42fobc!(fb0d-kp&bp6z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['64.227.15.80']
+ALLOWED_HOSTS = ['64.227.15.80', 'www.thedissertation-coach.com', 'thedissertation-coach.com']
 
 
 # Application definition
